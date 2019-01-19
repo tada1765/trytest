@@ -18,38 +18,34 @@ this project should't do anything beside of testing new code.
 	 git config --global user.name "tada1765"
 	 git config --global user.email "www.tada1765@gmail.com"
 *********************************************************************
-
-ceedling new <project_name> // ceedling new trytest
-
-cd <project_name>
+### ceedling new trytest
+	ceedling new <project_name>
+	cd <project_name>
 ###
-:extension:
-  :executable: .exe
+	:extension:
+  	:executable: .exe
 ###
-cat >.gitignore << EOF
-build/*
-!build/Readme.txt
-EOF
+	cat >.gitignore << EOF
+	build/*
+	!build/Readme.txt
+	EOF
 ###
-echo "Do not remove me!" > build/Readme.txt
-cp build/Readme.txt test/support/
+	echo "Do not remove me!" > build/Readme.txt
+	cp build/Readme.txt test/support/
 ###
-git init
-git add --all
-git status
-git commit -m "Created the <project_name> project"
+	git init
+	git add --all
+	git status
+	git commit -m "Created the <project_name> project"
 ###
-// no need anymore
-// :environment:
-// :module_generator:
-// :naming: bumpy
-
-ceedling module:create[project_name]
+	// no need anymore
+	// :environment:
+	// :module_generator:
+	// :naming: bumpy
 ###
-git add --all
-git status
-git commit -m "added c.file and h.file."
-
-
+	ceedling module:create[project_name]
+	git add --all
+	git status
+	git commit -m "added c.file and h.file."
 ### ******the success created project should look like***********
 	C:\Student\tryingCreateProject
