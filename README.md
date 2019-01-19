@@ -7,14 +7,14 @@ is project should't do anything beside of testing new code.
 ### reset user.name and user.email:
  	git config --global --unset user.name
 	git config --global --unset user.email
-permission denied to other user git:
+### permission denied to other user git:
 	https://www.youtube.com/watch?v=aSTTJd5JMXg
 	search: manage window credentials
 	change the name and email.
-shcool:
+### shcool:
 	 git config --global user.name "TWQ1765"
 	 git config --global user.email "www.taaadaaa@qq.com"
-personal:
+### personal:
 	 git config --global user.name "tada1765"
 	 git config --global user.email "www.tada1765@gmail.com"
 *********************************************************************
@@ -42,10 +42,10 @@ git status
 
 git commit -m "Created the <project_name> project"
 
-//no need anymore
-//:environment:
-//:module_generator:
-//  :naming: bumpy
+// no need anymore
+// :environment:
+// :module_generator:
+// :naming: bumpy
 
 ceedling module:create[project_name]
 
@@ -54,5 +54,5 @@ git status
 git commit -m "added c.file and h.file."
 
 
-******the success created project should look like***********
+### ******the success created project should look like***********
 	C:\Student\tryingCreateProject
