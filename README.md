@@ -1,7 +1,7 @@
 # trytest
 is project should't do anything beside of testing new code.
 
-#created project:
+# created project:
 
 *****check git config -l user.name and user.email 1st****************
 reset user.name and user.email:
