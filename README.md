@@ -3,8 +3,8 @@ is project should't do anything beside of testing new code.
 
 # created project:
 
-*****check git config -l user.name and user.email 1st****************
-reset user.name and user.email:
+### *****check git config -l user.name and user.email 1st****************
+### reset user.name and user.email:
  	git config --global --unset user.name
 	git config --global --unset user.email
 permission denied to other user git:
