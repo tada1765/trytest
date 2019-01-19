@@ -1,5 +1,5 @@
 # trytest
-is project should't do anything beside of testing new code.
+this project should't do anything beside of testing new code.
 
 # created project:
 
@@ -35,11 +35,8 @@ echo "Do not remove me!" > build/Readme.txt
 cp build/Readme.txt test/support/
 
 git init
-
 git add --all
-
 git status
-
 git commit -m "Created the <project_name> project"
 
 // no need anymore
