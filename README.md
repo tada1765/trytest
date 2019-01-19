@@ -7,8 +7,7 @@ this project should't do anything beside of testing new code.
 ### reset user.name and user.email:
  	git config --global --unset user.name
 	git config --global --unset user.email
-### permission denied to other user git:
-	https://www.youtube.com/watch?v=aSTTJd5JMXg
+### permission denied to other user git: https://www.youtube.com/watch?v=aSTTJd5JMXg
 	search: manage window credentials
 	change the name and email.
 ### shcool:
@@ -49,3 +48,5 @@ this project should't do anything beside of testing new code.
 	git commit -m "added c.file and h.file."
 ### ******the success created project should look like***********
 	C:\Student\tryingCreateProject
+### code lite:
+	![image](https://user-images.githubusercontent.com/39853166/51425325-7091b900-1c15-11e9-8118-9f690712f393.png)
